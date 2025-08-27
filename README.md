@@ -1,6 +1,6 @@
 # Income Prediction and Model Analysis
 
-This project explores the "Adult Income" dataset to predict whether an individual earns over $50K a year. It serves as a comprehensive case study on structuring a data science project, refactoring monolithic notebooks into a modular codebase, and comparing the performance and behavior of various machine learning models.
+This project serves as a comprehensive case study on predicting individual income from the "Adult Income" dataset. It demonstrates how to structure a modern data science project by refactoring monolithic notebooks into a modular codebase and applying key software engineering principles for reproducibility and maintainability.
 
 ## Project Structure
 
@@ -15,9 +15,9 @@ The repository is organized using a standard data science project structure to e
 ├── models/                     <- Saved models would go here.
 │
 ├── notebooks/
-│   ├── 0.1-eda-and-data-cleaning.ipynb         <- Initial data exploration and cleaning.
-│   ├── 1.0-baseline-model-comparison.ipynb     <- Compares baseline Linear and Ensemble models.
-│   ├── 2.0-boosting-ensemble-analysis.ipynb    <- Deep dive into boosting algorithms.
+│   ├── 0.1-eda-and-data-cleaning.ipynb           <- Initial data exploration and cleaning.
+│   ├── 1.0-baseline-model-comparison.ipynb       <- Compares baseline Linear and Ensemble models.
+│   ├── 2.0-boosting-ensemble-analysis.ipynb      <- Deep dive into boosting algorithms.
 │   └── 3.0-regularized-regression-analysis.ipynb <- Analysis of regularization on linear models.
 │
 ├── reports/
@@ -73,7 +73,7 @@ The repository is organized using a standard data science project structure to e
 
 ## Software Engineering Best Practices
 
-Beyond the data science analysis, this project allows learning key software engineering practices that are crucial for creating robust, reproducible, and maintainable machine learning projects.
+Beyond the data science analysis, this project allowed me to learn and implement key software engineering practices that are crucial for creating robust, reproducible, and maintainable machine learning projects.
 
 -   **Code Modularity:** Instead of monolithic notebooks with repeated code, the project is broken into a `src/` directory. Core logic for data loading, feature engineering, and model training is centralized into Python scripts.
 -   **Function Imports:** The notebooks are kept clean and focused on analysis by importing their core functionality from the `src` scripts. This makes the workflow clear and avoids code duplication.

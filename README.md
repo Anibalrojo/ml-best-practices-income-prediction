@@ -42,11 +42,11 @@ The repository is organized using a standard data science project structure to e
 
 1.  **Clone the repository:**
     ```bash
-    git clone <repository-url>
+    git clone https://github.com/Anibalrojo/ml-best-practices-income-prediction
     cd Kib-Module-5
     ```
 
-2.  **Set up a virtual environment (recommended):**
+2.  **Set up a virtual environment:**
     ```bash
     python -m venv venv
     source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
